@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centro de Ayuda — VitaPrime</title>
+  <meta name="description" content="Recursos útiles para personas y empresas: consulta tu Dicom en Equifax, revisa tu deuda vigente en CMF, informe Ley 20.575, revisión técnica, reporte gratuito Autofact y más.">
+  <link rel="stylesheet" href="../styles/reset.css">
+  <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+
+  <!-- ============= NAV ============= -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="../index.html" class="nav__logo nav__logo--img" aria-label="VitaPrime inicio">
+        <img src="../assets/logos/Logo%20VitaPrime.png" alt="VitaPrime">
+      </a>
+      <nav class="nav__links" id="navLinks">
+        <a href="../index.html#servicios">Servicios</a>
+        <a href="../index.html#financieros">Financieros</a>
+        <a href="../index.html#proceso">Cómo funciona</a>
+        <a href="../index.html#nosotros">Nosotros</a>
+        <a href="../index.html#alianzas">Alianzas</a>
+        <a href="../index.html#faqs">FAQs</a>
+        <a href="centro-de-ayuda.html" class="is-active">Ayuda</a>
+        <a href="../index.html#contacto">Contacto</a>
+      </nav>
+      <a href="https://wa.me/56938664345" target="_blank" rel="noopener" class="btn btn--primary nav__cta">Cotizar</a>
+      <button class="nav__burger" id="navBurger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============= TOP ============= -->
+  <section class="product-top">
+    <div class="container">
+      <a href="../index.html" class="product-top__back">
+        <span aria-hidden="true">←</span> Volver al inicio
+      </a>
+      <span class="eyebrow">Recursos útiles</span>
+      <h1 class="product-top__title">
+        Centro de <span class="muted">ayuda.</span>
+      </h1>
+      <p class="product-top__lead">
+        Herramientas gratuitas para revisar tu situación crediticia, consultar antecedentes
+        de un vehículo y mantener tus datos actualizados — para personas y empresas.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============= PERSONAS ============= -->
+  <section class="section" id="personas">
+    <div class="container">
+      <header class="section__head">
+        <span class="eyebrow">Para personas</span>
+        <h2 class="section__title">Tus finanzas <span class="muted">bajo control.</span></h2>
+        <p class="section__lead">
+          Herramientas oficiales y gratuitas para consultar tu situación crediticia y mantener tu información al día.
+        </p>
+      </header>
+
+      <div class="resources">
+        <article class="card-float resource">
+          <div class="resource__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><polyline points="17 11 19 13 23 9"/></svg>
+          </div>
+          <span class="resource__tag">Equifax</span>
+          <h3 class="resource__title">Actualizar datos en Dicom</h3>
+          <p class="resource__desc">
+            Para actualizar tu información en Equifax, debes adjuntar el documento solicitado
+            en el siguiente link.
+          </p>
+          <p class="resource__note">
+            <strong>Importante:</strong> los documentos deben estar en formato PDF.
+          </p>
+          <a href="https://gestion.latam.equifax.com/CL/home" target="_blank" rel="noopener" class="resource__link">
+            Acceder a Equifax <span class="resource__ext" aria-hidden="true">↗</span>
+          </a>
+        </article>
+
+        <article class="card-float resource">
+          <div class="resource__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          </div>
+          <span class="resource__tag">CMF Chile</span>
+          <h3 class="resource__title">Conoce tu deuda vigente</h3>
+          <p class="resource__desc">
+            Si eres cliente del sistema financiero — como persona natural o jurídica — revisa las deudas
+            que mantienes con entidades supervisadas por la Comisión para el Mercado Financiero (CMF).
+          </p>
+          <p class="resource__note">
+            Información actualizada semanalmente con un desfase de 10 a 20 días.
+          </p>
+          <a href="https://conocetudeuda.cmfchile.cl/informe-deudas/622/w3-contents.html" target="_blank" rel="noopener" class="resource__link">
+            Consultar en CMF <span class="resource__ext" aria-hidden="true">↗</span>
+          </a>
+        </article>
+
+        <article class="card-float resource">
+          <div class="resource__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/><line x1="9" y1="14" x2="15" y2="14"/></svg>
+          </div>
+          <span class="resource__tag">Ley 20.575</span>
+          <h3 class="resource__title">Informe de consultas a tu RUT</h3>
+          <p class="resource__desc">
+            La Ley 20.575 establece que toda persona mayor de 18 años tiene derecho a obtener,
+            de forma gratuita y cada cuatro meses, un informe de consultas a su RUT en la base
+            de datos comerciales.
+          </p>
+          <p class="resource__note">
+            Trámite gratuito — uno cada 4 meses.
+          </p>
+          <a href="https://sec.equifax.cl/compraonline/ficha-producto/8/informe-ley-20575" target="_blank" rel="noopener" class="resource__link">
+            Solicitar informe <span class="resource__ext" aria-hidden="true">↗</span>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============= EMPRESAS ============= -->
+  <section class="section section--alt" id="empresas">
+    <div class="container">
+      <header class="section__head">
+        <span class="eyebrow">Para empresas</span>
+        <h2 class="section__title">Información oficial <span class="muted">a un clic.</span></h2>
+        <p class="section__lead">
+          Recursos pensados para empresas: consulta de deuda vigente, revisión técnica vehicular y reportes Autofact.
+        </p>
+      </header>
+
+      <div class="resources">
+        <article class="card-float resource">
+          <div class="resource__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-4"/><path d="M9 9v.01M9 12v.01M9 15v.01M9 18v.01"/></svg>
+          </div>
+          <span class="resource__tag">CMF Chile</span>
+          <h3 class="resource__title">Deuda vigente empresarial</h3>
+          <p class="resource__desc">
+            Consulta las deudas que tu empresa mantiene con entidades sujetas a la supervisión
+            de la Comisión para el Mercado Financiero (CMF).
+          </p>
+          <p class="resource__note">
+            Información actualizada semanalmente con un desfase de 10 a 20 días.
+          </p>
+          <a href="https://informedeudas.cmfchile.cl/informedeudacb/aplicacion?indice=110.0" target="_blank" rel="noopener" class="resource__link">
+            Consultar en CMF <span class="resource__ext" aria-hidden="true">↗</span>
+          </a>
+        </article>
+
+        <article class="card-float resource">
+          <div class="resource__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </div>
+          <span class="resource__tag">Autofact + PRT</span>
+          <h3 class="resource__title">Consulta de revisión técnica</h3>
+          <p class="resource__desc">
+            Ingresa la patente y consulta el informe completo de revisión técnica del vehículo.
+            Luego escanea el QR y se desplegará el reporte.
+          </p>
+          <div class="resource__links">
+            <a href="https://www.autofact.cl/consultar-patente-auto" target="_blank" rel="noopener" class="resource__link">
+              Consultar en Autofact <span class="resource__ext" aria-hidden="true">↗</span>
+            </a>
+            <a href="https://www.prt.cl/Paginas/RevisionTecnica.aspx" target="_blank" rel="noopener" class="resource__link resource__link--secondary">
+              Consultar en PRT <span class="resource__ext" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="card-float resource">
+          <div class="resource__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 16H9m10 0h3v-3.15a1 1 0 0 0-.84-.99L16 11l-2.7-3.6a1 1 0 0 0-.8-.4H5.24a2 2 0 0 0-1.8 1.1l-.8 1.63A6 6 0 0 0 2 12.42V16h2"/><circle cx="6.5" cy="16.5" r="2.5"/><circle cx="16.5" cy="16.5" r="2.5"/></svg>
+          </div>
+          <span class="resource__tag">Autofact · Gratis</span>
+          <h3 class="resource__title">Informe básico Autofact</h3>
+          <p class="resource__desc">
+            Reporte gratuito con los antecedentes esenciales del vehículo.
+          </p>
+          <ul class="resource__list">
+            <li>Estado de revisión técnica</li>
+            <li>Pasadas pendientes de autopistas</li>
+            <li>Último dueño registrado</li>
+          </ul>
+          <a href="https://www.autofact.cl/consultar-patente-auto" target="_blank" rel="noopener" class="resource__link">
+            Obtener informe gratis <span class="resource__ext" aria-hidden="true">↗</span>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============= CTA FINAL ============= -->
+  <section class="cta-final">
+    <div class="container">
+      <h2 class="cta-final__title">
+        <span class="heavy">¿Necesitas asesoría adicional?</span>
+        <span class="light">Conversemos.</span>
+      </h2>
+      <p class="cta-final__lead">Si después de revisar tu situación tienes dudas o quieres avanzar con un crédito, escríbenos.</p>
+      <div class="cta-final__buttons">
+        <a href="https://wa.me/56938664345" target="_blank" rel="noopener" class="btn btn--bronze">Hablar por WhatsApp</a>
+        <a href="../index.html#servicios" class="btn btn--ghost">Ver nuestros servicios <span class="arrow" aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============= FOOTER ============= -->
+  <footer class="footer" id="contacto">
+    <div class="container footer__inner">
+      <div class="footer__col">
+        <a href="../index.html" class="footer__logo" aria-label="VitaPrime"><img src="../assets/logos/Logo%20VitaPrime.png" alt="VitaPrime"></a>
+        <p class="footer__about">Asesoría e intermediación premium en crédito automotriz, financiero y seguros.</p>
+      </div>
+      <div class="footer__col">
+        <h5 class="footer__title">Contacto</h5>
+        <ul class="footer__list">
+          <li>Las Condes, Santiago</li>
+          <li><a href="tel:+56938664345">+56 9 3866 4345</a></li>
+          <li><a href="mailto:contacto@vitaprime.cl">contacto@vitaprime.cl</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h5 class="footer__title">Navegación</h5>
+        <ul class="footer__list">
+          <li><a href="../index.html#servicios">Servicios</a></li>
+          <li><a href="../index.html#financieros">Financieros</a></li>
+          <li><a href="../index.html#nosotros">Nosotros</a></li>
+          <li><a href="../index.html#alianzas">Alianzas</a></li>
+          <li><a href="../index.html#faqs">FAQs</a></li>
+          <li><a href="centro-de-ayuda.html">Centro de Ayuda</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h5 class="footer__title">Síguenos</h5>
+        <div class="footer__social">
+          <a href="https://wa.me/56938664345" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></a>
+          <a href="https://www.instagram.com/vitaprime.cl/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom container">
+      <span>© <span id="year"></span> VitaPrime · Las Condes, Santiago</span>
+      <span class="footer__credit">Asesoría · Crédito · Seguros</span>
+    </div>
+  </footer>
+
+  <script src="../scripts/main.js" defer></script>
+</body>
+</html>
