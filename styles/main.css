@@ -1233,8 +1233,10 @@
   font-weight: 400;
   font-size: clamp(28px, 3.2vw, 40px);
   letter-spacing: -0.02em;
-  color: var(--ash);
+  color: var(--charcoal);
+  text-decoration: none;
   white-space: nowrap;
+  cursor: pointer;
   transition: color 0.4s var(--ease-out);
   font-variation-settings: 'opsz' 144, 'SOFT' 100;
 }
@@ -1246,7 +1248,7 @@
   color: var(--bronze);
   margin-left: 24px;
 }
-.marquee__logo:hover { color: var(--charcoal); }
+.marquee__logo:hover { color: var(--bronze-deep); }
 
 @keyframes marquee {
   from { transform: translateX(0); }
